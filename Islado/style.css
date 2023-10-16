@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Ubuntu:wght@500&display=swap');
+
+.navbar {
+    position: relative;
+    background: black;
+}
+
+#navlist {
+   list-style: none;
+   display: flex;
+   padding: 0;
+   margin: 0;
+   background: black;
+}
+
+#navlist li {
+  flex: auto;
+  text-align: center;
+  padding: 1.6em;
+  font-size: 18px;
+  color: white;
+}
+
+#navlist li:hover {
+ background: red;
+}
+
+#navlist a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.clasefooter{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+    background:#ff0000;
+    text-align: center;
+    background-color: red;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.contenedor{
+    text-align: center;
+}
+
+.fila{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+}
+
+.fondodecard{
+    background-color: #ffffff;
+}
+
+.columnas{
+    width: 32.5%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.cardtv{
+    background-color: aqua;
+}
+
+.cardcel{
+    background-color: beige;
+}
+
+.cardaudif{
+    background-color: blueviolet;
+}
+
+.titulocard{
+    font-family: 'Pixelify Sans', sans-serif;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.imagenescentroindex{
+    width: 340px;
+    height: 170px;
+}
+
+.vermore{
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.vermore a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contactarbutton{
+    background-color: #00b9e3;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contactarbutton:hover{
+    background-color: #02c6f2;
+    font-size: 22px;
+}
+
+.contenedor h2{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.ultimafila{
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 17px 40px;
+    transition: all .5s ease;
+    cursor: pointer;
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(218, 16%, 58%);
+    color: hsl(0, 0%, 100%);
+    padding: 17px 40px;
+    box-shadow: rgb(133 145 167) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    padding: 17px 40px;
+    background-color: hsl(218, 16%, 58%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(133 145 167) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+  .ampliar-boton {
+    padding: 17px 40px; /* Aumenta el espacio alrededor del texto */
+    border: none;
+    cursor: pointer;}
